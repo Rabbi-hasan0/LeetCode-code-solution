@@ -1,10 +1,3 @@
-#include <bits/stdc++.h>
-#define print(x) cout << x << '\n'
-#define int long long
-using namespace std;
-const int N = 2e5;
-const int mod = 1e9 + 7;
-int dp[N], pref[N];
 
 class Solution {
 public:
@@ -30,19 +23,3 @@ public:
         return ans / 2;
     }
 };
-
-int32_t main() {
-    ios_base::sync_with_stdio(false);
-    cin.tie(nullptr);
-    // memset(dp, -1, sizeof dp);
-    int t = 1; cin >> t;
-    while(t--){
-        int n, l, r; 
-        cin >> n >> l >> r;
-        vector<int> a(n);
-        for(auto &i: a) cin >> i;
-        Solution obj;
-        cout << obj.countFairPairs(a, l, r) << '\n';
-    }
-    return 0;
-}
