@@ -1,0 +1,23 @@
+class Solution {
+public:
+    int findMaxLength(vector<int>& a) {
+        int n = a.size();
+        vector<int> pref(n + 1, 0);
+        pref[0] = -1;
+        for(int i = 0; i < n; ++i) {
+            if(a[i] == 0) a[i] = -1;
+            pref[i + 1] = pref[i] + a[i];  
+        }
+        
+        unordered_map<int, int> mp;
+        int ans = 0;
+        for(int i = 0; i <= n; ++i) {
+            if(mp.count(pref[i])) {
+                ans = max(ans, i - mp[pref[i]]);
+            } else {
+                mp[pref[i]] = i;
+            }
+        }
+        return ans;
+    }
+};
