@@ -1,6 +1,6 @@
-## Target for Next 3 month or (90 days) solved over all 300 problems
+## Target for Next 3 month or (90 days) solved over all 350 problems
 
-## Start date - (25 - 08 - 2025)
+## Start date: (25 - 08 - 2025)
 
 ```
 Daily:- 
@@ -10,13 +10,13 @@ Daily:-
    4. Sort/Search/DSA- 1
 ```
 
-1. In DFS topic - total medium - 90
-2. In BFS topic - total medium - 70
+1. In DFS topic - total medium - 50
+2. In BFS topic - total medium - 40
 3. In DP topic  - total medium - 90
 4. In Graph topic - total medium - 40
 5. In Tree topic - 40
 6. In sorting - medium - 30
-7. In searching - medium - 40
+7. In searching - medium - 30
 8. Linked list, stack, queue - 30
 
 
