@@ -3,6 +3,7 @@
 ## Start date: (25 - 08 - 2025)
 
 ```
+Each day must solved atleast 3 problem on leetcode
 Daily:- 
    1. DP- 1
    2. DFS/BFS- 1
